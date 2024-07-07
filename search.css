@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #search-container {
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  #search-container label {
+    width: 100px;
+  }
+  
+  #patientId {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #search-btn {
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #results.success {
+    background-color: #dff0d8; /* Light green */
+    color: green;
+  }
+  
+  #results.failure {
+    background-color: #f2dede; /* Light red */
+    color: red;
+  }

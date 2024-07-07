@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Patient Admission</title>
+    <link rel="stylesheet" href="newpatient.css">
+</head>
+<body>
+    <h1>New Patient Admission</h1>
+    <form id="patient-form">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" required>
+            <small>Format: XXXXXXXXXX</small>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+        </div>
+        <button id="create-button" type="submit">Create Patient</button>
+        <!-- <button onclick="document.location='edit.html'" id="edit-button">Edit</button> -->
+    </form>
+    <div id="message"></div>
+    <table id="patients-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Date of Birth</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="patients-tbody">
+            <!-- patient data will be displayed here -->
+        </tbody>
+    </table>
+
+    <script src="newpatient.js"></script>
+</body>
+</html>

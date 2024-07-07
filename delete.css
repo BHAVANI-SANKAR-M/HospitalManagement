@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#patient-info {
+    margin-bottom: 15px;
+}
+
+#delete-btn {
+    background-color: #F00; /* Red for confirmation */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+}
+
+#message {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+

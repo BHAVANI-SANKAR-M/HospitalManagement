@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#message {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+#edit-button {
+    background-color: #8c4caf; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+#edit-button:hover {
+    background-color: #2e10d5;
+}
+
+#patients-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #patients-table th, #patients-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #patients-table th {
+    background-color: #f0f0f0;
+  }
+  
+  #patients-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #patients-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  #patients-tbody td {
+    vertical-align: top;
+  }
+  
+  #patients-table .actions {
+    text-align: center;
+  }
+  
+  #patients-table .actions button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #patients-table .actions button:hover {
+    background-color: #3e8e41;
+  }
